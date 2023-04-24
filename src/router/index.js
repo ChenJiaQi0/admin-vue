@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Index from '@/views/index.vue'
+import Admin from '@/layout/admin.vue'
 import Login from '@/views/login/index.vue'
 import NotFound from '@/views/404.vue'
 import { hideFullLoading, showFullLoading } from '../utils/tools'
@@ -8,11 +9,19 @@ import { hideFullLoading, showFullLoading } from '../utils/tools'
 const routes = [
   {
     path: '/',
-    name: 'index',
-    component: Index,
-    meta: {
-      title: '仪表盘'
-    }
+    name: 'admin',
+    component: Admin,
+    // 子路由
+    children: [
+      {
+        path: '/',
+        name: 'index',
+        component: Index,
+        meta: {
+          title: '仪表盘'
+        }
+      }
+    ]
   },
   {
     path: '/login',
