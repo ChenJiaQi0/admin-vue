@@ -1,5 +1,5 @@
 <template>
-  <div>Index</div>
+  <div>Loing</div>
 </template>
 
 <script setup></script>
