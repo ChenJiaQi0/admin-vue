@@ -14,6 +14,7 @@ export function setToken(token) {
 export function removeToken() {
   localStorage.removeItem(TokenKey)
 }
+<<<<<<< HEAD
 
 const tabKey = 'tabList'
 
@@ -31,3 +32,5 @@ export function setTabList(tabList) {
 export function removeTabList() {
   localStorage.removeItem(tabKey)
 }
+=======
+>>>>>>> 42420ff153ba7e7523fbb474a6a364a30e3c9369

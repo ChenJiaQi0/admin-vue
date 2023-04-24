@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <script setup>
 const store = useAdminStore()
 const { sideWidth } = storeToRefs(store)
@@ -76,3 +77,8 @@ const { activeTab, tabList, changeTab, removeTab, handleClose } = useBreadCrumbs
   @apply text-gray-300;
 }
 </style>
+=======
+<template>
+  <div>面包屑</div>
+</template>
+>>>>>>> 42420ff153ba7e7523fbb474a6a364a30e3c9369
