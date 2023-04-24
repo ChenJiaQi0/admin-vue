@@ -29,10 +29,12 @@ export default defineConfig({
           '@/api/auth': ['login', 'logout', 'getCaptcha'],
           '@/api/admin': ['getInfo', 'rePassword'],
           '@/store/index': ['useAdminStore'],
-          '@/hooks/useAuth': ['useAccountLogin'],
-          '@/hooks/useAdmin': ['usePassword'],
-          '@/hooks/useBreakCrumbs': ['useBreadCrumbs'],
-          '@/hooks/useAdmin': ['usePassword']
+          // '@/hooks/useAuth': ['useAccountLogin'],
+          // '@/hooks/useAdmin': ['usePassword'],
+          // '@/hooks/useBreakCrumbs': ['useBreadCrumbs'],
+          '@/api/notice': ['getNoticePage', 'saveNotice', 'updateNotice', 'deleteNotice'],
+          // '@/hooks/useNotice': ['useNotice'],
+
         }
       ],
       // 指定文件夹位置， 加 /** 可遍历子目录
