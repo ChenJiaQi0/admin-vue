@@ -41,10 +41,7 @@ declare global {
   const getCurrentInstance: typeof import('vue')['getCurrentInstance']
   const getCurrentScope: typeof import('vue')['getCurrentScope']
   const getInfo: typeof import('@/api/admin')['getInfo']
-<<<<<<< HEAD
   const getTabList: typeof import('@/utils/storage')['getTabList']
-=======
->>>>>>> 42420ff153ba7e7523fbb474a6a364a30e3c9369
   const getToken: typeof import('@/utils/storage')['getToken']
   const h: typeof import('vue')['h']
   const hideFullLoading: typeof import('@/utils/tools')['hideFullLoading']
@@ -100,20 +97,14 @@ declare global {
   const refDefault: typeof import('@vueuse/core')['refDefault']
   const refThrottled: typeof import('@vueuse/core')['refThrottled']
   const refWithControl: typeof import('@vueuse/core')['refWithControl']
-<<<<<<< HEAD
   const removeTabList: typeof import('@/utils/storage')['removeTabList']
-=======
->>>>>>> 42420ff153ba7e7523fbb474a6a364a30e3c9369
   const removeToken: typeof import('@/utils/storage')['removeToken']
   const resolveComponent: typeof import('vue')['resolveComponent']
   const resolveRef: typeof import('@vueuse/core')['resolveRef']
   const resolveUnref: typeof import('@vueuse/core')['resolveUnref']
   const setActivePinia: typeof import('pinia')['setActivePinia']
   const setMapStoreSuffix: typeof import('pinia')['setMapStoreSuffix']
-<<<<<<< HEAD
   const setTabList: typeof import('@/utils/storage')['setTabList']
-=======
->>>>>>> 42420ff153ba7e7523fbb474a6a364a30e3c9369
   const setToken: typeof import('@/utils/storage')['setToken']
   const shallowReactive: typeof import('vue')['shallowReactive']
   const shallowReadonly: typeof import('vue')['shallowReadonly']
@@ -162,10 +153,7 @@ declare global {
   const useBase64: typeof import('@vueuse/core')['useBase64']
   const useBattery: typeof import('@vueuse/core')['useBattery']
   const useBluetooth: typeof import('@vueuse/core')['useBluetooth']
-<<<<<<< HEAD
   const useBreadCrumbs: typeof import('./hooks/useBreadCrumbs.js')['useBreadCrumbs']
-=======
->>>>>>> 42420ff153ba7e7523fbb474a6a364a30e3c9369
   const useBreakpoints: typeof import('@vueuse/core')['useBreakpoints']
   const useBroadcastChannel: typeof import('@vueuse/core')['useBroadcastChannel']
   const useBrowserLocation: typeof import('@vueuse/core')['useBrowserLocation']
