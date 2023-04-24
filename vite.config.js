@@ -28,7 +28,8 @@ export default defineConfig({
           '@/utils/storage': ['getToken', 'setToken', 'removeToken'],
           '@/api/auth': ['login', 'logout', 'getCaptcha'],
           '@/api/admin': ['getInfo', 'rePassword'],
-          '@/store/index': ['useAdminStore']
+          '@/store/index': ['useAdminStore'],
+          '@/hooks/useAuth': ['useAccountLogin']
         }
       ],
       // 指定文件夹位置， 加 /** 可遍历子目录
