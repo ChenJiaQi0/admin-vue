@@ -28,6 +28,7 @@ export default defineConfig({
           '@/utils/storage': ['getToken', 'setToken', 'removeToken', 'getTabList', 'setTabList', 'removeTabList'],
           '@/api/auth': ['login', 'logout', 'getCaptcha'],
           '@/api/admin': ['getInfo', 'rePassword'],
+          '@/api/index': ['getStatstics1', 'getStatistics2', 'getStatistics3'],
           '@/store/index': ['useAdminStore'],
           // '@/hooks/useAuth': ['useAccountLogin'],
           // '@/hooks/useAdmin': ['usePassword'],
