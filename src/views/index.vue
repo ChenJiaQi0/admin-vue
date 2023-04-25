@@ -1,4 +1,6 @@
 <script setup>
+import CountTo from '@/layout/components/CountTo.vue'
+
 const panels = ref([])
 setTimeout(() => {
   getStatistics1().then((res) => {
@@ -45,7 +47,8 @@ setTimeout(() => {
             </div>
           </template>
           <span class="text-3xl font-bold text-gray-500">
-            {{ item.value }}
+            <!-- {{ item.value }} -->
+            <CountTo :value="item.value" />
           </span>
           <el-divider />
           <div class="flex justify-between text-sm text-gray-500">
