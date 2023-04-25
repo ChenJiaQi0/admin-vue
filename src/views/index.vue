@@ -2,6 +2,7 @@
 import CountTo from '@/layout/components/CountTo.vue'
 import IndexChart from '@/layout/components/indexChart.vue'
 import IndexTag from '@/layout/components/IndexTag.vue'
+import IndexNav from '@/layout/components/IndexNav.vue'
 
 const panels = ref([])
 setTimeout(() => {
@@ -67,6 +68,9 @@ getStatistics3().then((res) => {
         </el-card>
       </el-col>
     </el-row>
+
+    <!-- 快读导航组件 -->
+    <IndexNav />
 
     <el-row :gutter="20" class="mt-5">
       <el-col :span="12">
