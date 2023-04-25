@@ -3,6 +3,7 @@ import CountTo from '@/layout/components/CountTo.vue'
 import IndexChart from '@/layout/components/indexChart.vue'
 import IndexTag from '@/layout/components/IndexTag.vue'
 import IndexNav from '@/layout/components/IndexNav.vue'
+import MyChart from '@/layout/components/MyChart.vue'
 
 const panels = ref([])
 setTimeout(() => {
@@ -79,6 +80,12 @@ getStatistics3().then((res) => {
       <el-col :span="12">
         <IndexTag title="店铺及商品提示" tip="店铺及商品提示" :btns="goods" class="mb-3" />
         <IndexTag title="交易提示" tip="需要立即处理的交易订单" :btns="orders" />
+      </el-col>
+    </el-row>
+
+    <el-row :gutter="20">
+      <el-col :span="12">
+        <MyChart />
       </el-col>
     </el-row>
   </div>

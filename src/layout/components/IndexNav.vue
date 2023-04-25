@@ -54,10 +54,11 @@ const iconNavs = [
   <el-row :gutter="20" class="mt-5">
     <el-col :span="3" v-for="(item, index) in iconNavs" :key="index">
       <el-card class="shadow hover:shadow-xl" @click="$router.push(item.path)">
-        <div class="f-col-center cursor-pointer">
+        <div class="f-col-center cursor-pointer" style="text-align: center">
           <el-icon :size="16" :class="item.color">
             <component :is="item.icon" />
           </el-icon>
+          <br />
           <span class="text-sm mt-2">{{ item.title }}</span>
         </div>
       </el-card>
