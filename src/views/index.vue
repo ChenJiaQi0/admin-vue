@@ -1,5 +1,6 @@
 <script setup>
 import CountTo from '@/layout/components/CountTo.vue'
+import IndexChart from '@/layout/components/indexChart.vue'
 
 const panels = ref([])
 setTimeout(() => {
@@ -57,6 +58,13 @@ setTimeout(() => {
           </div>
         </el-card>
       </el-col>
+    </el-row>
+
+    <el-row :gutter="20" class="mt-5">
+      <el-col :span="12">
+        <IndexChart />
+      </el-col>
+      <el-col :span="12"></el-col>
     </el-row>
   </div>
 </template>
